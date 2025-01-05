@@ -75,8 +75,8 @@ The checkpoints for [SAM](https://github.com/facebookresearch/segment-anything#:
 
 Click the links below to download the checkpoints for beluga whale detector:
 
-- [YOLO-SAM]()
-- [YOLO-Buffer]()
+- [YOLO-SAM](https://github.com/VoyagerXvoyagerx/beluga-seeker/releases/download/detect-from-sat-img/YOLO-SAM.pth)
+- [YOLO-Buffer](https://github.com/VoyagerXvoyagerx/beluga-seeker/releases/download/detect-from-sat-img/YOLO-Buffer.pth)
 
 ## Getting Start
 It's easy to get started with inference code. We provide [inference_demo.ipynb](/inference_demo.ipynb) to help you get started.
@@ -93,9 +93,8 @@ CUDA_VISIBLE_DEVICES=0 python tools/train.py configs_beluga/yolov8_s_b24-100e.py
 Please refer to [evaluate.ipynb](/evaluate.ipynb) for evaluate on all the metrics.
 
 ## Acknowledgements
-This work is supported by the 4th IEEE GRSS Student Challenge.
-Thanks Amou for help with the use of ArcGIS.
-Thanks Zori for delivering the data.
+This work is supported by the [4th IEEE GRSS Student Challenge](https://www.grss-ieee.org/community/groups-initiatives/ieee-grss-student-grand-challenge).
+The authors gratefully acknowledge Amou for the assistance with ArcGIS Pro, and Zori for dilivering the data.
 
 This project uses the following open source libraries:
 - [MMYOLO](https://github.com/open-mmlab/mmyolo)
