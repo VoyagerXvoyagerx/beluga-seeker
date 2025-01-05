@@ -37,22 +37,20 @@ Our YOLO-SAM could distinguish whales from seals in high accuracy.
 </p>
 
 ## Installation
-First clone this repository locally:
+Please install [PyTorch](https://pytorch.org/get-started/previous-versions/) first. `torch<2.1.0` is recomended for compatibility with other dependencies.
+This repo is developed using `python 3.10` and `torch 2.0.0+cu118`
 ```
-git clone https://github.com/VoyagerXvoyagerx/beluga-seeker.git
+conda create -n belugaSeeker python=3.10
+conda activate belugaSeeker
+pip install torch==2.0.1 torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cu118
 ```
 For training and inference, please install the mmyolo codebase.
 ```
 pip install openmim
 mim install "mmengine>=0.6.0" "mmcv>=2.0.0rc4,<2.1.0" "mmdet>=3.0.0rc6,<3.1.0" "mmyolo"
 ```
-```
-mim install "mmcv>=2.0.0rc4,<2.1.0"
-mim install "mmdet>=3.0.0rc6,<3.1.0"
-mim install "mmyolo"
-```
 
-The following depencdencies are required for data annotation.
+The following depencdencies are required for data preprocess and annotation.
 ```
 pip install rasterio geopandas
 pip install git+https://github.com/facebookresearch/segment-anything.git
@@ -67,7 +65,7 @@ Click the links below to download the checkpoints for beluga whale detector:
 - [YOLO-Buffer]()
 
 ## Getting Start
-It's easy to get started with inference code. We provide [inference_demo.ipynb](/inference_demo.ipynb) and a colab demo to help you get started.
+It's easy to get started with inference code. We provide [inference_demo.ipynb](/inference_demo.ipynb) to help you get started.
 
 ## Preprocessing
 Please refer to [crop.ipynb](/annotation_tools/crop.ipynb) for cropping the images and [create_whale_masks.ipynb](/annotation_tools/create_whale_masks.ipynb) for generating whale masks and bounding boxes.
