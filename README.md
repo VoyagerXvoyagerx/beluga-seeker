@@ -8,22 +8,33 @@
 <p align="center">
     <img src="https://github.com/user-attachments/assets/5258c6ce-e81d-4f95-989b-6d3e06bb8824" alt="Image" width="400">
 </p>
-Our work detect beluga whales in the Arctic Region from very high resolution satellite imagery.
+
+---
+
+Our work detects beluga whales in the Arctic Region from very high resolution satellite imagery with manually created point labels.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/da736f8a-86b5-4549-a209-2c2f8f8602fd" alt="annotation_process" style="width:800px; display: block; margin: 0 auto;">
 </p>
-We create box labels from point labels using SAM, significantly improved annotaion efficency.
+
+We create bounding box labels from point labels using SAM, significantly improved annotaion efficency.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/3bc49d72-5fc4-449b-860a-6a362504b105" alt="annotation_process" style="width:500px; display: block; margin: 0 auto;">
 </p>
+
 Based on the high-quality automated annotation process, the YOLOv8s model trained on SAM annotated data (YOLO-SAM) produces bbounding boxes that fits the actual whales shape.
+<p align="center">
 <img src="https://github.com/user-attachments/assets/0506fa93-3757-49c8-9cde-27b3502c0969" alt="results" style="width:800px; display: block; margin: 0 auto;">
+</p>
 
 YOLO-SAM significantly surpasses the model trained on point labels (YOLO-Buffer) in terms of mAP, recall, and F1 score,  with notable improvements in detecting whale groups.
+<p align="center">
 <img src="https://github.com/user-attachments/assets/b1066167-2cc3-4eab-86f4-483978f8a193" alt="results" style="width:800px; display: block; margin: 0 auto;">
+</p>
 
 Our YOLO-SAM could distinguish whales from seals in high accuracy.
+<p align="center">
 <img src="https://github.com/user-attachments/assets/5f70ed21-156e-48c3-b55b-dae6a1b7d63a" alt="results" style="width:800px; display: block; margin: 0 auto;">
+</p>
 
 ## Installation
 First clone this repository locally:
@@ -46,6 +57,7 @@ The following depencdencies are required for data annotation.
 pip install rasterio geopandas
 pip install git+https://github.com/facebookresearch/segment-anything.git
 ```
+
 ## Model Checkpoints
 The checkpoints for [SAM](https://github.com/facebookresearch/segment-anything#:~:text=for%20more%20details.-,Model%20Checkpoints,-Three%20model%20versions) can be downloaded via [SAM-ViT-H](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
 
