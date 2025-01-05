@@ -2,7 +2,13 @@
 
 ---
 
-<h4 align="center"><em>Yijie Zheng, &nbsp; &nbsp; Jinxuan Yang, &nbsp; &nbsp; Yu Chen, &nbsp; &nbsp; Yaxuan Wang,</em></h4>
+<h4 align="center">    
+    <em>
+        <a href="https://voyagerxvoyagerx.github.io/" target="_blank">Yijie Zheng</a>, &nbsp; &nbsp; 
+        Jinxuan Yang, &nbsp; &nbsp; 
+        Yu Chen, &nbsp; &nbsp; 
+        Yaxuan Wang,
+    </em></h4>
 
 <h4 align="center"><em>Yihang Lu, &nbsp; &nbsp; Guoqing Li✉, &nbsp; &nbsp; Bryanna Sherbo, &nbsp; &nbsp; Cortney Watt </em></h4>
 <p align="center">
@@ -10,6 +16,14 @@
 </p>
 
 ---
+- [Beluga Whale Detection from Satellite Imagery with Point Labels](#beluga-whale-detection-from-satellite-imagery-with-point-labels)
+  - [Installation](#installation)
+  - [Model Checkpoints](#model-checkpoints)
+  - [Getting Start](#getting-start)
+  - [Preprocessing](#preprocessing)
+  - [Training](#training)
+  - [Evaluation](#evaluation)
+  - [Acknowledgements](#acknowledgements)
 
 Our work detects beluga whales in the Arctic Region from very high resolution satellite imagery with manually created point labels.
 <p align="center">
@@ -70,7 +84,7 @@ It's easy to get started with inference code. We provide [inference_demo.ipynb](
 ## Preprocessing
 Please refer to [crop.ipynb](/annotation_tools/crop.ipynb) for cropping the images and [create_whale_masks.ipynb](/annotation_tools/create_whale_masks.ipynb) for generating whale masks and bounding boxes.
 
-## Traning
+## Training
 The file structure follows the mmyolo convention. Use the command below to specify the GPU devices. Automatic mixed precision training is enabled to accelerate training while maintaining the performance.
 ```
 CUDA_VISIBLE_DEVICES=0 python tools/train.py configs_beluga/yolov8_s_b24-100e.py --amp
