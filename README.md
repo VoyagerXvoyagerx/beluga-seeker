@@ -9,13 +9,13 @@
     <img src="https://github.com/user-attachments/assets/5258c6ce-e81d-4f95-989b-6d3e06bb8824" alt="Image" width="400">
 </p>
 Our work detect beluga whales in the Arctic Region from very high resolution satellite imagery.
-
+<p align="center">
 <img src="https://github.com/user-attachments/assets/da736f8a-86b5-4549-a209-2c2f8f8602fd" alt="annotation_process" style="width:800px; display: block; margin: 0 auto;">
-
+</p>
 We create box labels from point labels using SAM, significantly improved annotaion efficency.
-
+<p align="center">
 <img src="https://github.com/user-attachments/assets/3bc49d72-5fc4-449b-860a-6a362504b105" alt="annotation_process" style="width:500px; display: block; margin: 0 auto;">
-
+</p>
 Based on the high-quality automated annotation process, the YOLOv8s model trained on SAM annotated data (YOLO-SAM) produces bbounding boxes that fits the actual whales shape.
 <img src="https://github.com/user-attachments/assets/0506fa93-3757-49c8-9cde-27b3502c0969" alt="results" style="width:800px; display: block; margin: 0 auto;">
 
