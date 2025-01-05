@@ -1,0 +1,1 @@
+We also provide a demo for [cropping](/annotation_tools/crop_aerial.ipynb) and [annotating](/annotation_tools/create_whale_masks_aerial.ipynb) aerial image (0.13m GSD).
