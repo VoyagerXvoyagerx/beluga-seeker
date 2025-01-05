@@ -1,0 +1,4436 @@
+{
+    "type": "AI_EOTrainingDataset",
+    "name": "Dataset for Beluga Whale Detection",
+    "description": "Dataset for Beluga Whale Detection",
+    "license": "",
+    "version": "0.1.0",
+    "createTime": "2024-12-09",
+    "providers": [
+        "University of Chinese Academy of Sciences"
+    ],
+    "classes": [
+        "beluga",
+        "maybe",
+        "seal",
+        "harp seal"
+    ],
+    "numberOfClasses": 4,
+    "bands": [
+        "panchromatic"
+    ],
+    "amountOfTrainingTiles": 29,
+    "amountOfCroppedData": 98,
+    "amountOfTrainingLabels": 215,
+    "tiles": [
+        {
+            "tileURL": "22AUG01161709-P3DM_R09C5-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 5,
+            "numberOfLabels": 6,
+            "windows": [
+                {
+                    "cropID": [
+                        4,
+                        54
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R09C5-015379185020_01_P001_4_54.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 1,
+                            "pointIndex": [
+                                52,
+                                127
+                            ],
+                            "bbox": [
+                                49,
+                                124,
+                                6,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        23,
+                        75
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R09C5-015379185020_01_P001_23_75.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 2,
+                            "pointIndex": [
+                                158,
+                                11
+                            ],
+                            "bbox": [
+                                156,
+                                8,
+                                5,
+                                9
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 6,
+                            "pointIndex": [
+                                67,
+                                123
+                            ],
+                            "bbox": [
+                                64,
+                                120,
+                                7,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        27,
+                        72
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R09C5-015379185020_01_P001_27_72.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 3,
+                            "pointIndex": [
+                                17,
+                                124
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        59,
+                        78
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R09C5-015379185020_01_P001_59_78.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 4,
+                            "pointIndex": [
+                                171,
+                                96
+                            ],
+                            "bbox": [
+                                165,
+                                93,
+                                9,
+                                9
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        66,
+                        68
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R09C5-015379185020_01_P001_66_68.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 5,
+                            "pointIndex": [
+                                126,
+                                85
+                            ],
+                            "bbox": [
+                                121,
+                                84,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R08C6-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 5,
+            "numberOfLabels": 7,
+            "windows": [
+                {
+                    "cropID": [
+                        7,
+                        74
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R08C6-015379185020_01_P001_7_74.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 7,
+                            "pointIndex": [
+                                153,
+                                20
+                            ],
+                            "bbox": [
+                                148,
+                                17,
+                                7,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        12,
+                        76
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R08C6-015379185020_01_P001_12_76.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 8,
+                            "pointIndex": [
+                                8,
+                                101
+                            ],
+                            "bbox": [
+                                6,
+                                98,
+                                8,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 9,
+                            "pointIndex": [
+                                109,
+                                44
+                            ],
+                            "bbox": [
+                                106,
+                                42,
+                                6,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        14,
+                        75
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R08C6-015379185020_01_P001_14_75.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 10,
+                            "pointIndex": [
+                                142,
+                                105
+                            ],
+                            "bbox": [
+                                140,
+                                102,
+                                5,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        24,
+                        63
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R08C6-015379185020_01_P001_24_63.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 11,
+                            "pointIndex": [
+                                47,
+                                114
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        39,
+                        22
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R08C6-015379185020_01_P001_39_22.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 12,
+                            "pointIndex": [
+                                7,
+                                100
+                            ],
+                            "bbox": [
+                                5,
+                                95,
+                                6,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 13,
+                            "pointIndex": [
+                                1,
+                                92
+                            ],
+                            "bbox": [
+                                0,
+                                90,
+                                8,
+                                6
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R07C7-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                9802,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 2,
+            "windows": [
+                {
+                    "cropID": [
+                        28,
+                        29
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R07C7-015379185020_01_P001_28_29.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 14,
+                            "pointIndex": [
+                                142,
+                                191
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        39,
+                        12
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R07C7-015379185020_01_P001_39_12.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 15,
+                            "pointIndex": [
+                                77,
+                                174
+                            ],
+                            "bbox": [
+                                76,
+                                171,
+                                6,
+                                9
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R07C6-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 3,
+            "windows": [
+                {
+                    "cropID": [
+                        4,
+                        7
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R07C6-015379185020_01_P001_4_7.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 16,
+                            "pointIndex": [
+                                54,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        47,
+                        11
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R07C6-015379185020_01_P001_47_11.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 17,
+                            "pointIndex": [
+                                80,
+                                145
+                            ],
+                            "bbox": [
+                                76,
+                                143,
+                                8,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 18,
+                            "pointIndex": [
+                                76,
+                                143
+                            ],
+                            "bbox": [
+                                75,
+                                141,
+                                3,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R07C4-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 3,
+            "numberOfLabels": 3,
+            "windows": [
+                {
+                    "cropID": [
+                        12,
+                        29
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R07C4-015379185020_01_P001_12_29.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 19,
+                            "pointIndex": [
+                                8,
+                                118
+                            ],
+                            "bbox": [
+                                5,
+                                114,
+                                5,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        11,
+                        29
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R07C4-015379185020_01_P001_11_29.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 20,
+                            "pointIndex": [
+                                4,
+                                142
+                            ],
+                            "bbox": [
+                                2,
+                                139,
+                                5,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        11,
+                        28
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R07C4-015379185020_01_P001_11_28.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 21,
+                            "pointIndex": [
+                                143,
+                                188
+                            ],
+                            "bbox": [
+                                141,
+                                187,
+                                6,
+                                5
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R07C3-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 2,
+            "windows": [
+                {
+                    "cropID": [
+                        35,
+                        58
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R07C3-015379185020_01_P001_35_58.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 22,
+                            "pointIndex": [
+                                0,
+                                166
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        51,
+                        73
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R07C3-015379185020_01_P001_51_73.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 23,
+                            "pointIndex": [
+                                141,
+                                93
+                            ],
+                            "bbox": [
+                                140,
+                                90,
+                                4,
+                                9
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R07C2-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 1,
+            "numberOfLabels": 3,
+            "windows": [
+                {
+                    "cropID": [
+                        22,
+                        39
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R07C2-015379185020_01_P001_22_39.tif",
+                    "numberOfLabels": 3,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 24,
+                            "pointIndex": [
+                                179,
+                                97
+                            ],
+                            "bbox": [
+                                175,
+                                89,
+                                6,
+                                11
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 25,
+                            "pointIndex": [
+                                178,
+                                82
+                            ],
+                            "bbox": [
+                                176,
+                                79,
+                                5,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 26,
+                            "pointIndex": [
+                                181,
+                                75
+                            ],
+                            "bbox": [
+                                177,
+                                73,
+                                6,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R06C8-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                2717,
+                4798
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 1,
+            "numberOfLabels": 1,
+            "windows": [
+                {
+                    "cropID": [
+                        4,
+                        0
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C8-015379185020_01_P001_4_0.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 27,
+                            "pointIndex": [
+                                17,
+                                53
+                            ],
+                            "bbox": [
+                                15,
+                                51,
+                                6,
+                                5
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R06C7-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 3,
+            "windows": [
+                {
+                    "cropID": [
+                        39,
+                        36
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C7-015379185020_01_P001_39_36.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 28,
+                            "pointIndex": [
+                                144,
+                                77
+                            ],
+                            "bbox": [
+                                142,
+                                73,
+                                5,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 29,
+                            "pointIndex": [
+                                190,
+                                96
+                            ],
+                            "bbox": [
+                                188,
+                                92,
+                                4,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        82,
+                        11
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C7-015379185020_01_P001_82_11.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 30,
+                            "pointIndex": [
+                                169,
+                                47
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R06C6-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 14,
+            "windows": [
+                {
+                    "cropID": [
+                        22,
+                        59
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C6-015379185020_01_P001_22_59.tif",
+                    "numberOfLabels": 12,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 31,
+                            "pointIndex": [
+                                191,
+                                161
+                            ],
+                            "bbox": [
+                                188,
+                                159,
+                                4,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 32,
+                            "pointIndex": [
+                                183,
+                                165
+                            ],
+                            "bbox": [
+                                181,
+                                163,
+                                5,
+                                9
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 33,
+                            "pointIndex": [
+                                178,
+                                167
+                            ],
+                            "bbox": [
+                                176,
+                                165,
+                                4,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 34,
+                            "pointIndex": [
+                                172,
+                                164
+                            ],
+                            "bbox": [
+                                171,
+                                162,
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 35,
+                            "pointIndex": [
+                                169,
+                                167
+                            ],
+                            "bbox": [
+                                167,
+                                165,
+                                8,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 36,
+                            "pointIndex": [
+                                173,
+                                175
+                            ],
+                            "bbox": [
+                                171,
+                                173,
+                                5,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 37,
+                            "pointIndex": [
+                                165,
+                                171
+                            ],
+                            "bbox": [
+                                162,
+                                169,
+                                6,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 38,
+                            "pointIndex": [
+                                158,
+                                167
+                            ],
+                            "bbox": [
+                                157,
+                                165,
+                                5,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 39,
+                            "pointIndex": [
+                                159,
+                                174
+                            ],
+                            "bbox": [
+                                157,
+                                172,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 40,
+                            "pointIndex": [
+                                156,
+                                178
+                            ],
+                            "bbox": [
+                                155,
+                                176,
+                                5,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 41,
+                            "pointIndex": [
+                                154,
+                                187
+                            ],
+                            "bbox": [
+                                153,
+                                185,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 42,
+                            "pointIndex": [
+                                151,
+                                187
+                            ],
+                            "bbox": [
+                                150,
+                                185,
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        23,
+                        59
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C6-015379185020_01_P001_23_59.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 43,
+                            "pointIndex": [
+                                155,
+                                0
+                            ],
+                            "bbox": [
+                                153,
+                                0,
+                                6,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 44,
+                            "pointIndex": [
+                                159,
+                                8
+                            ],
+                            "bbox": [
+                                157,
+                                6,
+                                5,
+                                5
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R06C5-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 1,
+            "numberOfLabels": 1,
+            "windows": [
+                {
+                    "cropID": [
+                        73,
+                        46
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C5-015379185020_01_P001_73_46.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 45,
+                            "pointIndex": [
+                                72,
+                                76
+                            ],
+                            "bbox": [
+                                67,
+                                74,
+                                10,
+                                5
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R06C4-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 2,
+            "windows": [
+                {
+                    "cropID": [
+                        22,
+                        19
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C4-015379185020_01_P001_22_19.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 46,
+                            "pointIndex": [
+                                54,
+                                90
+                            ],
+                            "bbox": [
+                                50,
+                                87,
+                                7,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        52,
+                        46
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C4-015379185020_01_P001_52_46.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 47,
+                            "pointIndex": [
+                                125,
+                                169
+                            ],
+                            "bbox": [
+                                123,
+                                166,
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R06C3-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 2,
+            "windows": [
+                {
+                    "cropID": [
+                        53,
+                        3
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C3-015379185020_01_P001_53_3.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 48,
+                            "pointIndex": [
+                                79,
+                                156
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        79,
+                        11
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C3-015379185020_01_P001_79_11.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 49,
+                            "pointIndex": [
+                                88,
+                                73
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R06C2-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 1,
+            "numberOfLabels": 8,
+            "windows": [
+                {
+                    "cropID": [
+                        81,
+                        83
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R06C2-015379185020_01_P001_81_83.tif",
+                    "numberOfLabels": 8,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 50,
+                            "pointIndex": [
+                                164,
+                                80
+                            ],
+                            "bbox": [
+                                162,
+                                77,
+                                5,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 51,
+                            "pointIndex": [
+                                171,
+                                72
+                            ],
+                            "bbox": [
+                                168,
+                                70,
+                                6,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 52,
+                            "pointIndex": [
+                                162,
+                                71
+                            ],
+                            "bbox": [
+                                160,
+                                69,
+                                5,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 53,
+                            "pointIndex": [
+                                161,
+                                73
+                            ],
+                            "bbox": [
+                                160,
+                                72,
+                                4,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 54,
+                            "pointIndex": [
+                                167,
+                                67
+                            ],
+                            "bbox": [
+                                165,
+                                64,
+                                5,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 55,
+                            "pointIndex": [
+                                170,
+                                63
+                            ],
+                            "bbox": [
+                                167,
+                                61,
+                                5,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 56,
+                            "pointIndex": [
+                                172,
+                                69
+                            ],
+                            "bbox": [
+                                169,
+                                66,
+                                5,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 57,
+                            "pointIndex": [
+                                171,
+                                77
+                            ],
+                            "bbox": [
+                                168,
+                                74,
+                                6,
+                                6
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R05C7-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 1,
+            "numberOfLabels": 1,
+            "windows": [
+                {
+                    "cropID": [
+                        38,
+                        6
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C7-015379185020_01_P001_38_6.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 58,
+                            "pointIndex": [
+                                28,
+                                159
+                            ],
+                            "bbox": [
+                                24,
+                                152,
+                                7,
+                                11
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R05C6-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 3,
+            "numberOfLabels": 4,
+            "windows": [
+                {
+                    "cropID": [
+                        46,
+                        38
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C6-015379185020_01_P001_46_38.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 59,
+                            "pointIndex": [
+                                52,
+                                133
+                            ],
+                            "bbox": [
+                                49,
+                                129,
+                                7,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 61,
+                            "pointIndex": [
+                                30,
+                                123
+                            ],
+                            "bbox": [
+                                28,
+                                120,
+                                6,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        47,
+                        38
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C6-015379185020_01_P001_47_38.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 60,
+                            "pointIndex": [
+                                11,
+                                0
+                            ],
+                            "bbox": [
+                                10,
+                                0,
+                                5,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        55,
+                        52
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C6-015379185020_01_P001_55_52.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 62,
+                            "pointIndex": [
+                                36,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R05C4-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 1,
+            "numberOfLabels": 1,
+            "windows": [
+                {
+                    "cropID": [
+                        14,
+                        75
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C4-015379185020_01_P001_14_75.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 63,
+                            "pointIndex": [
+                                42,
+                                65
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R05C3-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 7,
+            "numberOfLabels": 34,
+            "windows": [
+                {
+                    "cropID": [
+                        1,
+                        0
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C3-015379185020_01_P001_1_0.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 64,
+                            "pointIndex": [
+                                160,
+                                36
+                            ],
+                            "bbox": [
+                                155,
+                                34,
+                                7,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 65,
+                            "pointIndex": [
+                                114,
+                                43
+                            ],
+                            "bbox": [
+                                112,
+                                42,
+                                5,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        23,
+                        17
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C3-015379185020_01_P001_23_17.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 66,
+                            "pointIndex": [
+                                96,
+                                35
+                            ],
+                            "bbox": [
+                                93,
+                                33,
+                                6,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        46,
+                        80
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C3-015379185020_01_P001_46_80.tif",
+                    "numberOfLabels": 11,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 67,
+                            "pointIndex": [
+                                181,
+                                114
+                            ],
+                            "bbox": [
+                                178,
+                                112,
+                                5,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 68,
+                            "pointIndex": [
+                                172,
+                                115
+                            ],
+                            "bbox": [
+                                171,
+                                114,
+                                4,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 69,
+                            "pointIndex": [
+                                165,
+                                124
+                            ],
+                            "bbox": [
+                                164,
+                                122,
+                                4,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 70,
+                            "pointIndex": [
+                                151,
+                                139
+                            ],
+                            "bbox": [
+                                148,
+                                138,
+                                5,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 71,
+                            "pointIndex": [
+                                83,
+                                182
+                            ],
+                            "bbox": [
+                                82,
+                                181,
+                                3,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 72,
+                            "pointIndex": [
+                                87,
+                                188
+                            ],
+                            "bbox": [
+                                84,
+                                185,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 73,
+                            "pointIndex": [
+                                98,
+                                181
+                            ],
+                            "bbox": [
+                                96,
+                                180,
+                                5,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 74,
+                            "pointIndex": [
+                                103,
+                                186
+                            ],
+                            "bbox": [
+                                100,
+                                185,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 75,
+                            "pointIndex": [
+                                97,
+                                187
+                            ],
+                            "bbox": [
+                                95,
+                                184,
+                                6,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 76,
+                            "pointIndex": [
+                                92,
+                                190
+                            ],
+                            "bbox": [
+                                89,
+                                188,
+                                7,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 77,
+                            "pointIndex": [
+                                82,
+                                189
+                            ],
+                            "bbox": [
+                                81,
+                                186,
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        47,
+                        80
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C3-015379185020_01_P001_47_80.tif",
+                    "numberOfLabels": 8,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 78,
+                            "pointIndex": [
+                                80,
+                                2
+                            ],
+                            "bbox": [
+                                79,
+                                0,
+                                4,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 79,
+                            "pointIndex": [
+                                70,
+                                2
+                            ],
+                            "bbox": [
+                                68,
+                                1,
+                                5,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 80,
+                            "pointIndex": [
+                                72,
+                                25
+                            ],
+                            "bbox": [
+                                70,
+                                23,
+                                5,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 81,
+                            "pointIndex": [
+                                79,
+                                19
+                            ],
+                            "bbox": [
+                                77,
+                                18,
+                                5,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 82,
+                            "pointIndex": [
+                                81,
+                                16
+                            ],
+                            "bbox": [
+                                77,
+                                12,
+                                7,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 83,
+                            "pointIndex": [
+                                86,
+                                11
+                            ],
+                            "bbox": [
+                                81,
+                                7,
+                                9,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 84,
+                            "pointIndex": [
+                                90,
+                                8
+                            ],
+                            "bbox": [
+                                86,
+                                5,
+                                7,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 85,
+                            "pointIndex": [
+                                95,
+                                9
+                            ],
+                            "bbox": [
+                                90,
+                                6,
+                                7,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        47,
+                        81
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C3-015379185020_01_P001_47_81.tif",
+                    "numberOfLabels": 10,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 86,
+                            "pointIndex": [
+                                43,
+                                119
+                            ],
+                            "bbox": [
+                                41,
+                                116,
+                                7,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 87,
+                            "pointIndex": [
+                                49,
+                                111
+                            ],
+                            "bbox": [
+                                48,
+                                108,
+                                4,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 88,
+                            "pointIndex": [
+                                66,
+                                124
+                            ],
+                            "bbox": [
+                                64,
+                                121,
+                                6,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 89,
+                            "pointIndex": [
+                                55,
+                                119
+                            ],
+                            "bbox": [
+                                51,
+                                116,
+                                8,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 90,
+                            "pointIndex": [
+                                53,
+                                114
+                            ],
+                            "bbox": [
+                                51,
+                                110,
+                                5,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 91,
+                            "pointIndex": [
+                                70,
+                                108
+                            ],
+                            "bbox": [
+                                67,
+                                106,
+                                6,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 92,
+                            "pointIndex": [
+                                64,
+                                108
+                            ],
+                            "bbox": [
+                                62,
+                                105,
+                                6,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 93,
+                            "pointIndex": [
+                                62,
+                                117
+                            ],
+                            "bbox": [
+                                59,
+                                115,
+                                8,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 94,
+                            "pointIndex": [
+                                64,
+                                113
+                            ],
+                            "bbox": [
+                                60,
+                                110,
+                                8,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 95,
+                            "pointIndex": [
+                                58,
+                                114
+                            ],
+                            "bbox": [
+                                56,
+                                110,
+                                5,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        45,
+                        47
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C3-015379185020_01_P001_45_47.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 96,
+                            "pointIndex": [
+                                2,
+                                170
+                            ],
+                            "bbox": [
+                                0,
+                                168,
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        56,
+                        74
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C3-015379185020_01_P001_56_74.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 97,
+                            "pointIndex": [
+                                188,
+                                91
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R05C2-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 2,
+            "windows": [
+                {
+                    "cropID": [
+                        22,
+                        36
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C2-015379185020_01_P001_22_36.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 98,
+                            "pointIndex": [
+                                83,
+                                37
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        68,
+                        69
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R05C2-015379185020_01_P001_68_69.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 99,
+                            "pointIndex": [
+                                144,
+                                177
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R04C7-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 12,
+            "windows": [
+                {
+                    "cropID": [
+                        31,
+                        28
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R04C7-015379185020_01_P001_31_28.tif",
+                    "numberOfLabels": 11,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 100,
+                            "pointIndex": [
+                                123,
+                                164
+                            ],
+                            "bbox": [
+                                121,
+                                164,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 101,
+                            "pointIndex": [
+                                127,
+                                161
+                            ],
+                            "bbox": [
+                                124,
+                                158,
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 102,
+                            "pointIndex": [
+                                129,
+                                158
+                            ],
+                            "bbox": [
+                                127,
+                                157,
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 103,
+                            "pointIndex": [
+                                130,
+                                156
+                            ],
+                            "bbox": [
+                                129,
+                                151,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 104,
+                            "pointIndex": [
+                                121,
+                                166
+                            ],
+                            "bbox": [
+                                118,
+                                165,
+                                5,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 105,
+                            "pointIndex": [
+                                119,
+                                168
+                            ],
+                            "bbox": [
+                                116,
+                                164,
+                                5,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 106,
+                            "pointIndex": [
+                                116,
+                                172
+                            ],
+                            "bbox": [
+                                113,
+                                171,
+                                7,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 107,
+                            "pointIndex": [
+                                111,
+                                169
+                            ],
+                            "bbox": [
+                                109,
+                                169,
+                                2,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 108,
+                            "pointIndex": [
+                                109,
+                                171
+                            ],
+                            "bbox": [
+                                104,
+                                168,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 109,
+                            "pointIndex": [
+                                105,
+                                178
+                            ],
+                            "bbox": [
+                                101,
+                                174,
+                                6,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 110,
+                            "pointIndex": [
+                                103,
+                                181
+                            ],
+                            "bbox": [
+                                98,
+                                178,
+                                7,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        54,
+                        25
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R04C7-015379185020_01_P001_54_25.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 111,
+                            "pointIndex": [
+                                38,
+                                39
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R04C3-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 1,
+            "numberOfLabels": 1,
+            "windows": [
+                {
+                    "cropID": [
+                        73,
+                        12
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R04C3-015379185020_01_P001_73_12.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 112,
+                            "pointIndex": [
+                                82,
+                                83
+                            ],
+                            "bbox": [
+                                77,
+                                80,
+                                11,
+                                7
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R04C2-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 5,
+            "numberOfLabels": 35,
+            "windows": [
+                {
+                    "cropID": [
+                        23,
+                        3
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R04C2-015379185020_01_P001_23_3.tif",
+                    "numberOfLabels": 16,
+                    "labels": [
+                        {
+                            "class": "harp seal",
+                            "originID": 113,
+                            "pointIndex": [
+                                153,
+                                6
+                            ],
+                            "bbox": [
+                                151,
+                                5,
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 114,
+                            "pointIndex": [
+                                149,
+                                7
+                            ],
+                            "bbox": [
+                                147,
+                                6,
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 115,
+                            "pointIndex": [
+                                145,
+                                30
+                            ],
+                            "bbox": [
+                                144,
+                                29,
+                                4,
+                                3
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 116,
+                            "pointIndex": [
+                                140,
+                                22
+                            ],
+                            "bbox": [
+                                139,
+                                21,
+                                3,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 117,
+                            "pointIndex": [
+                                140,
+                                17
+                            ],
+                            "bbox": [
+                                138,
+                                16,
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 118,
+                            "pointIndex": [
+                                136,
+                                15
+                            ],
+                            "bbox": [
+                                135,
+                                13,
+                                3,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 119,
+                            "pointIndex": [
+                                145,
+                                6
+                            ],
+                            "bbox": [
+                                142,
+                                4,
+                                4,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 120,
+                            "pointIndex": [
+                                143,
+                                10
+                            ],
+                            "bbox": [
+                                141,
+                                9,
+                                3,
+                                2
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 121,
+                            "pointIndex": [
+                                143,
+                                7
+                            ],
+                            "bbox": [
+                                141,
+                                7,
+                                3,
+                                2
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 122,
+                            "pointIndex": [
+                                139,
+                                7
+                            ],
+                            "bbox": [
+                                137,
+                                5,
+                                3,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 123,
+                            "pointIndex": [
+                                142,
+                                14
+                            ],
+                            "bbox": [
+                                139,
+                                12,
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 124,
+                            "pointIndex": [
+                                131,
+                                13
+                            ],
+                            "bbox": [
+                                128,
+                                10,
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 125,
+                            "pointIndex": [
+                                127,
+                                11
+                            ],
+                            "bbox": [
+                                125,
+                                8,
+                                4,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 126,
+                            "pointIndex": [
+                                130,
+                                21
+                            ],
+                            "bbox": [
+                                128,
+                                19,
+                                3,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 127,
+                            "pointIndex": [
+                                128,
+                                24
+                            ],
+                            "bbox": [
+                                127,
+                                22,
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "class": "harp seal",
+                            "originID": 128,
+                            "pointIndex": [
+                                128,
+                                28
+                            ],
+                            "bbox": [
+                                126,
+                                26,
+                                3,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        24,
+                        2
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R04C2-015379185020_01_P001_24_2.tif",
+                    "numberOfLabels": 4,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 129,
+                            "pointIndex": [
+                                173,
+                                87
+                            ],
+                            "bbox": [
+                                171,
+                                85,
+                                4,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 130,
+                            "pointIndex": [
+                                129,
+                                168
+                            ],
+                            "bbox": [
+                                126,
+                                165,
+                                5,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 131,
+                            "pointIndex": [
+                                74,
+                                146
+                            ],
+                            "bbox": [
+                                73,
+                                146,
+                                4,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 132,
+                            "pointIndex": [
+                                17,
+                                148
+                            ],
+                            "bbox": [
+                                15,
+                                146,
+                                5,
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        27,
+                        1
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R04C2-015379185020_01_P001_27_1.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 133,
+                            "pointIndex": [
+                                52,
+                                91
+                            ],
+                            "bbox": [
+                                50,
+                                89,
+                                5,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        28,
+                        1
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R04C2-015379185020_01_P001_28_1.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 134,
+                            "pointIndex": [
+                                172,
+                                109
+                            ],
+                            "bbox": [
+                                168,
+                                105,
+                                5,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        42,
+                        38
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R04C2-015379185020_01_P001_42_38.tif",
+                    "numberOfLabels": 13,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 135,
+                            "pointIndex": [
+                                76,
+                                180
+                            ],
+                            "bbox": [
+                                74,
+                                177,
+                                4,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 136,
+                            "pointIndex": [
+                                73,
+                                178
+                            ],
+                            "bbox": [
+                                70,
+                                176,
+                                6,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 137,
+                            "pointIndex": [
+                                68,
+                                178
+                            ],
+                            "bbox": [
+                                65,
+                                176,
+                                6,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 138,
+                            "pointIndex": [
+                                65,
+                                178
+                            ],
+                            "bbox": [
+                                64,
+                                176,
+                                3,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 139,
+                            "pointIndex": [
+                                62,
+                                178
+                            ],
+                            "bbox": [
+                                60,
+                                176,
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 140,
+                            "pointIndex": [
+                                59,
+                                180
+                            ],
+                            "bbox": [
+                                58,
+                                178,
+                                4,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 141,
+                            "pointIndex": [
+                                61,
+                                185
+                            ],
+                            "bbox": [
+                                60,
+                                182,
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 142,
+                            "pointIndex": [
+                                57,
+                                181
+                            ],
+                            "bbox": [
+                                55,
+                                179,
+                                4,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 143,
+                            "pointIndex": [
+                                55,
+                                184
+                            ],
+                            "bbox": [
+                                53,
+                                182,
+                                3,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 144,
+                            "pointIndex": [
+                                51,
+                                185
+                            ],
+                            "bbox": [
+                                49,
+                                183,
+                                5,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 145,
+                            "pointIndex": [
+                                47,
+                                185
+                            ],
+                            "bbox": [
+                                45,
+                                183,
+                                4,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 146,
+                            "pointIndex": [
+                                50,
+                                181
+                            ],
+                            "bbox": [
+                                49,
+                                179,
+                                4,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 147,
+                            "pointIndex": [
+                                54,
+                                179
+                            ],
+                            "bbox": [
+                                53,
+                                178,
+                                4,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R04C1-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 2,
+            "windows": [
+                {
+                    "cropID": [
+                        13,
+                        79
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R04C1-015379185020_01_P001_13_79.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 148,
+                            "pointIndex": [
+                                135,
+                                73
+                            ],
+                            "bbox": [
+                                134,
+                                70,
+                                6,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        13,
+                        70
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R04C1-015379185020_01_P001_13_70.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 149,
+                            "pointIndex": [
+                                92,
+                                64
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R03C7-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 1,
+            "numberOfLabels": 1,
+            "windows": [
+                {
+                    "cropID": [
+                        49,
+                        71
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R03C7-015379185020_01_P001_49_71.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 150,
+                            "pointIndex": [
+                                15,
+                                105
+                            ],
+                            "bbox": [
+                                11,
+                                104,
+                                8,
+                                5
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R03C1-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 2,
+            "numberOfLabels": 2,
+            "windows": [
+                {
+                    "cropID": [
+                        69,
+                        49
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R03C1-015379185020_01_P001_69_49.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 152,
+                            "pointIndex": [
+                                82,
+                                82
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        68,
+                        48
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R03C1-015379185020_01_P001_68_48.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "harp seals",
+                            "originID": 153,
+                            "pointIndex": [
+                                83,
+                                104
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R02C7-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 1,
+            "numberOfLabels": 1,
+            "windows": [
+                {
+                    "cropID": [
+                        46,
+                        43
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C7-015379185020_01_P001_46_43.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 154,
+                            "pointIndex": [
+                                159,
+                                28
+                            ],
+                            "bbox": [
+                                156,
+                                25,
+                                9,
+                                6
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 17,
+            "numberOfLabels": 28,
+            "windows": [
+                {
+                    "cropID": [
+                        69,
+                        47
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_69_47.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 155,
+                            "pointIndex": [
+                                0,
+                                29
+                            ],
+                            "bbox": [
+                                0,
+                                27,
+                                3,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        68,
+                        47
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_68_47.tif",
+                    "numberOfLabels": 4,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 156,
+                            "pointIndex": [
+                                100,
+                                71
+                            ],
+                            "bbox": [
+                                96,
+                                67,
+                                7,
+                                10
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 157,
+                            "pointIndex": [
+                                25,
+                                90
+                            ],
+                            "bbox": [
+                                22,
+                                88,
+                                8,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 159,
+                            "pointIndex": [
+                                14,
+                                7
+                            ],
+                            "bbox": [
+                                9,
+                                5,
+                                9,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 160,
+                            "pointIndex": [
+                                36,
+                                133
+                            ],
+                            "bbox": [
+                                33,
+                                131,
+                                9,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        67,
+                        47
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_67_47.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 158,
+                            "pointIndex": [
+                                37,
+                                189
+                            ],
+                            "bbox": [
+                                33,
+                                186,
+                                9,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        67,
+                        45
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_67_45.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 161,
+                            "pointIndex": [
+                                11,
+                                6
+                            ],
+                            "bbox": [
+                                8,
+                                3,
+                                6,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 162,
+                            "pointIndex": [
+                                5,
+                                5
+                            ],
+                            "bbox": [
+                                3,
+                                2,
+                                6,
+                                9
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        65,
+                        39
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_65_39.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 163,
+                            "pointIndex": [
+                                148,
+                                56
+                            ],
+                            "bbox": [
+                                145,
+                                53,
+                                5,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        75,
+                        38
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_75_38.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 164,
+                            "pointIndex": [
+                                168,
+                                178
+                            ],
+                            "bbox": [
+                                160,
+                                175,
+                                12,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        76,
+                        40
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_76_40.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 165,
+                            "pointIndex": [
+                                169,
+                                73
+                            ],
+                            "bbox": [
+                                162,
+                                72,
+                                7,
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        71,
+                        24
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_71_24.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 166,
+                            "pointIndex": [
+                                151,
+                                169
+                            ],
+                            "bbox": [
+                                148,
+                                166,
+                                7,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        65,
+                        10
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_65_10.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 167,
+                            "pointIndex": [
+                                180,
+                                21
+                            ],
+                            "bbox": [
+                                177,
+                                18,
+                                5,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        72,
+                        16
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_72_16.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 168,
+                            "pointIndex": [
+                                20,
+                                124
+                            ],
+                            "bbox": [
+                                17,
+                                120,
+                                5,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 169,
+                            "pointIndex": [
+                                36,
+                                129
+                            ],
+                            "bbox": [
+                                31,
+                                125,
+                                7,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        74,
+                        22
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_74_22.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 170,
+                            "pointIndex": [
+                                70,
+                                161
+                            ],
+                            "bbox": [
+                                68,
+                                159,
+                                6,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        78,
+                        17
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_78_17.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 171,
+                            "pointIndex": [
+                                16,
+                                9
+                            ],
+                            "bbox": [
+                                14,
+                                7,
+                                8,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        75,
+                        15
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_75_15.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 172,
+                            "pointIndex": [
+                                87,
+                                63
+                            ],
+                            "bbox": [
+                                85,
+                                60,
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 173,
+                            "pointIndex": [
+                                99,
+                                74
+                            ],
+                            "bbox": [
+                                94,
+                                68,
+                                7,
+                                9
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        79,
+                        17
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_79_17.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 174,
+                            "pointIndex": [
+                                145,
+                                158
+                            ],
+                            "bbox": [
+                                143,
+                                156,
+                                10,
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        81,
+                        19
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_81_19.tif",
+                    "numberOfLabels": 3,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 175,
+                            "pointIndex": [
+                                111,
+                                180
+                            ],
+                            "bbox": [
+                                107,
+                                177,
+                                7,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 178,
+                            "pointIndex": [
+                                59,
+                                154
+                            ],
+                            "bbox": [
+                                55,
+                                151,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 179,
+                            "pointIndex": [
+                                58,
+                                134
+                            ],
+                            "bbox": [
+                                53,
+                                132,
+                                7,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        82,
+                        19
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_82_19.tif",
+                    "numberOfLabels": 3,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 176,
+                            "pointIndex": [
+                                80,
+                                10
+                            ],
+                            "bbox": [
+                                78,
+                                8,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 177,
+                            "pointIndex": [
+                                88,
+                                13
+                            ],
+                            "bbox": [
+                                83,
+                                12,
+                                7,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 182,
+                            "pointIndex": [
+                                98,
+                                22
+                            ],
+                            "bbox": [
+                                92,
+                                20,
+                                9,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        82,
+                        18
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C4-015379185020_01_P001_82_18.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 180,
+                            "pointIndex": [
+                                64,
+                                56
+                            ],
+                            "bbox": [
+                                61,
+                                53,
+                                7,
+                                6
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 181,
+                            "pointIndex": [
+                                68,
+                                108
+                            ],
+                            "bbox": [
+                                64,
+                                106,
+                                8,
+                                6
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 21,
+            "numberOfLabels": 33,
+            "windows": [
+                {
+                    "cropID": [
+                        63,
+                        74
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_63_74.tif",
+                    "numberOfLabels": 7,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 183,
+                            "pointIndex": [
+                                107,
+                                7
+                            ],
+                            "bbox": [
+                                105,
+                                2,
+                                4,
+                                11
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 184,
+                            "pointIndex": [
+                                102,
+                                9
+                            ],
+                            "bbox": [
+                                100,
+                                6,
+                                6,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 185,
+                            "pointIndex": [
+                                108,
+                                17
+                            ],
+                            "bbox": [
+                                106,
+                                13,
+                                4,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 187,
+                            "pointIndex": [
+                                186,
+                                179
+                            ],
+                            "bbox": [
+                                185,
+                                175,
+                                4,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 188,
+                            "pointIndex": [
+                                137,
+                                185
+                            ],
+                            "bbox": [
+                                135,
+                                183,
+                                7,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 189,
+                            "pointIndex": [
+                                145,
+                                184
+                            ],
+                            "bbox": [
+                                143,
+                                182,
+                                10,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 211,
+                            "pointIndex": [
+                                170,
+                                174
+                            ],
+                            "bbox": [
+                                168,
+                                171,
+                                5,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        63,
+                        75
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_63_75.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 186,
+                            "pointIndex": [
+                                4,
+                                119
+                            ],
+                            "bbox": [
+                                2,
+                                114,
+                                6,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        64,
+                        74
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_64_74.tif",
+                    "numberOfLabels": 4,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 190,
+                            "pointIndex": [
+                                168,
+                                26
+                            ],
+                            "bbox": [
+                                166,
+                                21,
+                                4,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 191,
+                            "pointIndex": [
+                                166,
+                                57
+                            ],
+                            "bbox": [
+                                165,
+                                53,
+                                4,
+                                8
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 192,
+                            "pointIndex": [
+                                191,
+                                89
+                            ],
+                            "bbox": [
+                                187,
+                                88,
+                                5,
+                                4
+                            ]
+                        },
+                        {
+                            "class": "certain whale",
+                            "originID": 194,
+                            "pointIndex": [
+                                155,
+                                83
+                            ],
+                            "bbox": [
+                                151,
+                                81,
+                                6,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        64,
+                        75
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_64_75.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 193,
+                            "pointIndex": [
+                                5,
+                                91
+                            ],
+                            "bbox": [
+                                0,
+                                87,
+                                10,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        64,
+                        76
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_64_76.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 195,
+                            "pointIndex": [
+                                95,
+                                182
+                            ],
+                            "bbox": [
+                                88,
+                                180,
+                                7,
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        63,
+                        76
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_63_76.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 196,
+                            "pointIndex": [
+                                76,
+                                16
+                            ],
+                            "bbox": [
+                                73,
+                                14,
+                                5,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        65,
+                        75
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_65_75.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 197,
+                            "pointIndex": [
+                                47,
+                                39
+                            ],
+                            "bbox": [
+                                45,
+                                36,
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        62,
+                        75
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_62_75.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 198,
+                            "pointIndex": [
+                                171,
+                                157
+                            ],
+                            "bbox": [
+                                166,
+                                153,
+                                5,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        61,
+                        74
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_61_74.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 199,
+                            "pointIndex": [
+                                109,
+                                66
+                            ],
+                            "bbox": [
+                                107,
+                                64,
+                                7,
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        59,
+                        73
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_59_73.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 200,
+                            "pointIndex": [
+                                14,
+                                118
+                            ],
+                            "bbox": [
+                                12,
+                                116,
+                                7,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        60,
+                        76
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_60_76.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 201,
+                            "pointIndex": [
+                                138,
+                                29
+                            ],
+                            "bbox": [
+                                136,
+                                28,
+                                5,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        78,
+                        83
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_78_83.tif",
+                    "numberOfLabels": 3,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 202,
+                            "pointIndex": [
+                                77,
+                                73
+                            ],
+                            "bbox": [
+                                74,
+                                71,
+                                5,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 203,
+                            "pointIndex": [
+                                71,
+                                76
+                            ],
+                            "bbox": [
+                                66,
+                                72,
+                                7,
+                                7
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 204,
+                            "pointIndex": [
+                                65,
+                                76
+                            ],
+                            "bbox": [
+                                62,
+                                75,
+                                5,
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        83,
+                        78
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_83_78.tif",
+                    "numberOfLabels": 2,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 205,
+                            "pointIndex": [
+                                31,
+                                14
+                            ],
+                            "bbox": [
+                                30,
+                                12,
+                                6,
+                                5
+                            ]
+                        },
+                        {
+                            "class": "uncertain whale",
+                            "originID": 206,
+                            "pointIndex": [
+                                22,
+                                12
+                            ],
+                            "bbox": [
+                                19,
+                                10,
+                                6,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        82,
+                        67
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_82_67.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 207,
+                            "pointIndex": [
+                                52,
+                                47
+                            ],
+                            "bbox": [
+                                51,
+                                44,
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        76,
+                        76
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_76_76.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 208,
+                            "pointIndex": [
+                                91,
+                                125
+                            ],
+                            "bbox": [
+                                89,
+                                123,
+                                5,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        76,
+                        77
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_76_77.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 209,
+                            "pointIndex": [
+                                115,
+                                52
+                            ],
+                            "bbox": [
+                                112,
+                                50,
+                                5,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        65,
+                        74
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_65_74.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 210,
+                            "pointIndex": [
+                                191,
+                                59
+                            ],
+                            "bbox": [
+                                187,
+                                57,
+                                5,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        71,
+                        21
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_71_21.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 212,
+                            "pointIndex": [
+                                181,
+                                10
+                            ],
+                            "bbox": [
+                                179,
+                                9,
+                                4,
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        83,
+                        39
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_83_39.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "certain whale",
+                            "originID": 213,
+                            "pointIndex": [
+                                58,
+                                142
+                            ],
+                            "bbox": [
+                                55,
+                                139,
+                                7,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        64,
+                        82
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_64_82.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 214,
+                            "pointIndex": [
+                                89,
+                                68
+                            ],
+                            "bbox": [
+                                87,
+                                65,
+                                5,
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "cropID": [
+                        59,
+                        79
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C3-015379185020_01_P001_59_79.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 215,
+                            "pointIndex": [
+                                109,
+                                141
+                            ],
+                            "bbox": [
+                                108,
+                                138,
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tileURL": "22AUG01161709-P3DM_R02C2-015379185020_01_P001.tif",
+            "dataSources": [
+                "WorldView-2"
+            ],
+            "imagerySize": [
+                16384,
+                16384
+            ],
+            "cropSize": [
+                192,
+                192
+            ],
+            "numberOfCrops": 1,
+            "numberOfLabels": 1,
+            "windows": [
+                {
+                    "cropID": [
+                        78,
+                        82
+                    ],
+                    "dataURL": "22AUG01161709-P3DM_R02C2-015379185020_01_P001_78_82.tif",
+                    "numberOfLabels": 1,
+                    "labels": [
+                        {
+                            "class": "uncertain whale",
+                            "originID": 216,
+                            "pointIndex": [
+                                168,
+                                180
+                            ],
+                            "bbox": [
+                                166,
+                                179,
+                                4,
+                                5
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
