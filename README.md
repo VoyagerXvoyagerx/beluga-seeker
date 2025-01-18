@@ -30,7 +30,7 @@ Our work detects beluga whales in the Arctic Region from very high resolution sa
 <img src="https://github.com/user-attachments/assets/da736f8a-86b5-4549-a209-2c2f8f8602fd" alt="annotation_process" style="width:800px; display: block; margin: 0 auto;">
 </p>
 
-We create bounding box labels from point labels using SAM, significantly improved annotaion efficency.
+We create bounding box labels from point labels using SAM, significantly improved annotaion efficiency.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/616a7d01-c044-4561-a171-70a10c5e3a2a" alt="annotation_process" style="width:500px; display: block; margin: 0 auto;">
 </p>
