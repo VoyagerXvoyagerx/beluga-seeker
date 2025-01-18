@@ -10,10 +10,10 @@
         Yaxuan Wang,
     </em></h4>
 
-<h4 align="center"><em>Yihang Lu, &nbsp; &nbsp; Guoqing Li✉, &nbsp; &nbsp; Bryanna Sherbo, &nbsp; &nbsp; Cortney Watt </em></h4>
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/5258c6ce-e81d-4f95-989b-6d3e06bb8824" alt="Image" width="400">
-</p>
+<h4 align="center"><em>Yihang Lu, &nbsp; &nbsp; Guoqing Li✉</em></h4>
+
+<h4 align="center"><em>University of Chinese Academy of Sciences</em></h4>
+
 
 ---
 - [Beluga Whale Detection from Satellite Imagery with Point Labels](#beluga-whale-detection-from-satellite-imagery-with-point-labels)
@@ -32,12 +32,12 @@ Our work detects beluga whales in the Arctic Region from very high resolution sa
 
 We create bounding box labels from point labels using SAM, significantly improved annotaion efficency.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/3bc49d72-5fc4-449b-860a-6a362504b105" alt="annotation_process" style="width:500px; display: block; margin: 0 auto;">
+<img src="https://github.com/user-attachments/assets/616a7d01-c044-4561-a171-70a10c5e3a2a" alt="annotation_process" style="width:500px; display: block; margin: 0 auto;">
 </p>
 
 Based on the high-quality automated annotation process, the YOLOv8s model trained on SAM annotated data (YOLO-SAM) produces bbounding boxes that fits the actual whales shape.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0506fa93-3757-49c8-9cde-27b3502c0969" alt="results" style="width:800px; display: block; margin: 0 auto;">
+<img src="https://github.com/user-attachments/assets/1ae52be7-bc7b-4b57-8893-a3e00b31d2c3" alt="results" style="width:800px; display: block; margin: 0 auto;">
 </p>
 
 YOLO-SAM significantly surpasses the model trained on point labels (YOLO-Buffer) in terms of mAP, recall, and F1 score,  with notable improvements in detecting whale groups.
