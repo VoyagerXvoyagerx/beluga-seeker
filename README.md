@@ -14,6 +14,11 @@
 
 <h4 align="center"><em>University of Chinese Academy of Sciences</em></h4>
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/aec9b438-ef34-473e-bc4f-bb3d4d334292" alt="institute" style="width:500px; display: block; margin: 0 auto;">
+</p>
+
+
 
 ---
 - [Beluga Whale Detection from Satellite Imagery with Point Labels](#beluga-whale-detection-from-satellite-imagery-with-point-labels)
@@ -90,7 +95,7 @@ The file structure follows the mmyolo convention. Use the command below to speci
 CUDA_VISIBLE_DEVICES=0 python tools/train.py configs_beluga/yolov8_s_b24-100e.py --amp
 ```
 ## Evaluation
-Please refer to [evaluate.ipynb](/evaluate.ipynb) for evaluate on all the metrics.
+Please refer to [evaluate.ipynb](/evaluate.ipynb) for evaluating on all the metrics.
 
 ## Acknowledgements
 This work is supported by the [4th IEEE GRSS Student Challenge](https://www.grss-ieee.org/community/groups-initiatives/ieee-grss-student-grand-challenge).
