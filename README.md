@@ -52,7 +52,7 @@ YOLO-SAM significantly surpasses the model trained on point labels (YOLO-Buffer)
 
 Our YOLO-SAM could distinguish whales from seals in high accuracy.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/73c39462-9698-44db-935a-b4678f115e05" alt="results" style="width:800px; display: block; margin: 0 auto;">
+<img src="https://github.com/user-attachments/assets/5f70ed21-156e-48c3-b55b-dae6a1b7d63a" alt="results" style="width:800px; display: block; margin: 0 auto;">
 </p>
 
 ## Installation
