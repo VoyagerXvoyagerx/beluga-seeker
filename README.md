@@ -24,33 +24,33 @@
 - [Beluga Whale Detection from Satellite Imagery with Point Labels](#beluga-whale-detection-from-satellite-imagery-with-point-labels)
   - [Installation](#installation)
   - [Model Checkpoints](#model-checkpoints)
-  - [Getting Start](#getting-start)
+  - [Getting Started](#getting-started)
   - [Preprocessing](#preprocessing)
   - [Training](#training)
   - [Evaluation](#evaluation)
   - [Acknowledgements](#acknowledgements)
 
-Our work detects beluga whales in the Arctic Region from very high resolution satellite imagery with manually created point labels.
+Our work detected beluga whales in the Arctic region from very high resolution satellite imagery with manually created point labels.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/da736f8a-86b5-4549-a209-2c2f8f8602fd" alt="annotation_process" style="width:800px; display: block; margin: 0 auto;">
 </p>
 
-We create bounding box labels from point labels using SAM, significantly improved annotaion efficiency.
+We created bounding box labels from point labels using SAM, significantly improved annotaion efficiency.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/616a7d01-c044-4561-a171-70a10c5e3a2a" alt="annotation_process" style="width:500px; display: block; margin: 0 auto;">
 </p>
 
-Based on the high-quality automated annotation process, the YOLOv8s model trained on SAM annotated data (YOLO-SAM) produces bbounding boxes that fits the actual whales shape.
+Based on the high-quality automated annotation process, the YOLOv8s model trained on SAM-annotated data (YOLO-SAM) produced bbounding boxes that fits the actual whales shape.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/1ae52be7-bc7b-4b57-8893-a3e00b31d2c3" alt="results" style="width:800px; display: block; margin: 0 auto;">
 </p>
 
-YOLO-SAM significantly surpasses the model trained on point labels (YOLO-Buffer) in terms of precision and $F_1$ score, and almost matches the model trained on human-refined bounding box labels (YOLO-Box).
+YOLO-SAM significantly surpassed the model trained on point labels (YOLO-Buffer) in terms of precision and $F_1$ score, and almost matched the model trained on human-refined bounding box labels (YOLO-Box).
 <p align="center">
 <img src="https://github.com/user-attachments/assets/343da7b7-336d-4672-863c-eadcd900461e" alt="results" style="width:800px; display: block; margin: 0 auto;">
 </p>
 
-Our YOLO-SAM could distinguish whales from seals in high accuracy.
+Our YOLO-SAM distinguished whales from seals in high accuracy.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/5f70ed21-156e-48c3-b55b-dae6a1b7d63a" alt="results" style="width:800px; display: block; margin: 0 auto;">
 </p>
@@ -83,7 +83,7 @@ Click the links below to download the checkpoints for beluga whale detector:
 - [YOLO-SAM](https://github.com/VoyagerXvoyagerx/beluga-seeker/releases/download/detect-from-sat-img/YOLO-SAM.pth)
 - [YOLO-Buffer](https://github.com/VoyagerXvoyagerx/beluga-seeker/releases/download/detect-from-sat-img/YOLO-Buffer.pth)
 
-## Getting Start
+## Getting Started
 It's easy to get started with inference code. We provide [inference_demo.ipynb](/inference_demo.ipynb) to help you get started.
 
 ## Preprocessing
