@@ -18,7 +18,7 @@
 <img src="https://github.com/user-attachments/assets/aec9b438-ef34-473e-bc4f-bb3d4d334292" alt="institute" style="width:500px; display: block; margin: 0 auto;">
 </p>
 
-[**News**]: Our paper ([**arXiv**](https://arxiv.org/abs/2505.12066)) is accepted for oral presentation at IGARSS 2025! Welcome to meet us at the session ([TH3.P9: Detection and Tracking of Marine Animals using Spaceborne Remote Sensing Data](https://www.2025.ieeeigarss.org/view_paper.php?PaperNum=2430&SessionID=1426)) in Augeust 7 ☺️
+[**News**]: Our paper ([**arXiv**](https://arxiv.org/abs/2505.12066)) is accepted for oral presentation at IGARSS 2025! Welcome to meet us at the session ([TH3.P9: Detection and Tracking of Marine Animals using Spaceborne Remote Sensing Data](https://www.2025.ieeeigarss.org/view_paper.php?PaperNum=2430&SessionID=1426)) in August 7 ☺️
 
 ---
 - [Beluga Whale Detection from Satellite Imagery with Point Labels](#beluga-whale-detection-from-satellite-imagery-with-point-labels)
